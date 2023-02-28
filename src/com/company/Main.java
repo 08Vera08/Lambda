@@ -17,7 +17,7 @@ public class Main {
         list.add(new Person("Jesus", "Pavlov", 18));
         list.add(new Person("Rotor", "Pavlov", 4));
         Collections.sort(list, comp);
-        list.removeIf(x -> x.getAge() < 18);
+       
         System.out.println(list);
     }
 }
